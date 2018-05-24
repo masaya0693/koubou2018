@@ -1,6 +1,7 @@
-##<コード>  
+##<コード>
 
 ###sigmoid関数とsoftmax関数の実装
+'''python
 
     import numpy as np
 
@@ -13,8 +14,10 @@
         total = np.sum(x)
         y = x / total
         return y
+'''
 
 ###３層マルチパーセプトロンのNNの実装
+'''python
 
     import numpy as np
 
@@ -70,8 +73,11 @@
     x = np.array([1.0, 0.5])
     y = forword(network, x)
     print(y)
+'''
+
 
 ###バッチ処理の行い方
+'''python
 
     import numpy as np
     import random
@@ -122,15 +128,16 @@
         y_batch = forword(network, x_batch)
         print("batch : %d" % i)
         print(y_batch)
+'''
 
 ##<感想>
-今回は前回と比較して内容が濃くなっていた。　　
+今回は前回と比較して内容が濃くなっていた。  
 実装に関しては復習ではあったものの
 確実に合っているという確証がないので、
-いい復習になった。
-次回も思い出しながら　　
+いい復習になった。  
+次回も思い出しながら
 取り組んでいきたい。
 
 ##<参考文献>
-教材: 第三回 情報学工房　　
+教材: 第三回 情報学工房  
 　　: ゼロから作るDeep Learning
