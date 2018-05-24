@@ -45,7 +45,6 @@
         network['b3'] = np.array([0.1, 0.2])
         return network
 
-
     def forword(network, x):
         # layer 1
         W1 = network['W1']
@@ -77,15 +76,12 @@
     import numpy as np
     import random
 
-
     def sigmoid(x):
         ans = 1 / (1 + np.exp(-x))
         return ans
 
-
     def identity_function(x):
         return x
-
 
     def init_network():
         network = {}
@@ -96,7 +92,6 @@
         network['W3'] = np.array([[0.1, 0.3], [0.2, 0.4]])
         network['b3'] = np.array([0.1, 0.2])
         return network
-
 
     def forword(network, x):
         # layer 1
@@ -129,10 +124,13 @@
         print(y_batch)
 
 ##<感想>
-今回は基本的な内容が中心であり
-難しいことは特になかった。
-レポートの問題も簡単だったため、
-突っかかることなく終えられてよかった。
+今回は前回と比較して内容が濃くなっていた。　　
+実装に関しては復習ではあったものの
+確実に合っているという確証がないので、
+いい復習になった。
+次回も思い出しながら　　
+取り組んでいきたい。
 
 ##<参考文献>
-教材: 第２章 パーセプトロン
+教材: 第三回 情報学工房　　
+　　: ゼロから作るDeep Learning
