@@ -1,7 +1,6 @@
 ##<コード>
 
 ###Softmax with loss の実装
-'''python
 
     class SoftmaxWithLoss:
 
@@ -22,9 +21,9 @@
             batch_size = self.t.shape[0]
             dx = (self.y - self.t) / batch_size
             return dx
-'''
 
 ###Two layer net の勾配の確認
+
     W1:2.685727285818323e-13
     b1:1.001591171112537e-12
     W2:8.748776260739111e-13
@@ -32,6 +31,7 @@
 
     
 ###Two layer net の実行結果
+
     epoc: 0
     train: 0.103800, test: 0.104800
     epoc: 1
