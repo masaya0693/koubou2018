@@ -261,7 +261,7 @@
     test acc:0.899
     Saved Network Parameters!
 
-![画像](./screen.jpg "画像")
+![グラフ画像](./screen.jpg "グラフ画像")
 
 ##<感想>
 今回の講義では、CNNについて学習した。
